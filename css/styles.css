@@ -1,8 +1,62 @@
 h1 {
-    color: pink;
+    color: red;
 }
 
-body{
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/927/773/231/game-of-thrones-house-targaryen-fire-and-blood-dragon-sigils-wallpaper-preview.jpg) ;
+body {
+    background-image: url(https://wallpaperaccess.com/full/7107111.jpg) ;
+    background-size: 1600px;
     background-repeat: no-repeat;
+    font-family: 'Bellefair', serif;
+    text-align: center;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1450px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgba(51, 50, 50, 0.266) ;
+    color: red;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+   
+}
+
+.bio-button, .status-button {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(240, 239, 239, 0.175);
+    outline: none;
+    border-radius: 5px;
+    color: red;
+    font-family: 'Bellefair', serif;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+
+#title-font {
+
+}
+
+/* title font needs adding  */
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 1450px) {
+    body{
+        background-size: ;
+    }
 }

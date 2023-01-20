@@ -52,14 +52,23 @@ body {
 
 }
 
+
+.pop-up-text {
+    color:red;
+}
+
 /* make bio and status work...duplicate and change photos and bios */
+
+
+
+
 
 
 
 /* Media Queries */
 
-@media screen and (min-width: 1450px) {
+/* @media screen and (min-width: 1450px) {
     body{
         background-size: ;
     }
-}
+} */

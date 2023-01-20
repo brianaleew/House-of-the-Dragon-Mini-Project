@@ -7,10 +7,13 @@ const bioText = document.getElementById('bio-text')
 const statusText = document.getElementById('status-text')
 const cardText = document.querySelectorAll('.pop-up-text-p')
 
- cardText.style.color = 'red'
+
 
 
 // Clicker Functions for Bio and Status Buttons
+
+
+//my plan here is to include an if statement to maybe control what text pops up since i selected all buttons?
 let bioClick = () => {
     console.log('bio has been clicked')
     

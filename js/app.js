@@ -1,18 +1,21 @@
 console.log('Linked')
 
 // Defining Elements Needed
-const bioBtn = document.querySelectorAll('bio-button')
+const bioBtn = document.querySelectorAll('.bio-button')
 const statusBtn = document.querySelectorAll('status-button')
 const bioText = document.getElementById('bio-text')
 const statusText = document.getElementById('status-text')
+const cardText = document.querySelectorAll('.pop-up-text-p')
 
-// let bioBtnArray = [bioBtn]
-// console.log(bioBtnArray)
+ cardText.style.color = 'red'
 
 
 // Clicker Functions for Bio and Status Buttons
 let bioClick = () => {
     console.log('bio has been clicked')
+    
+    cardText.innerText = 'Hello'
+    
 }
 
 let statusClick = () => {

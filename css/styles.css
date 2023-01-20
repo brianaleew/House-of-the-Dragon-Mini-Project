@@ -5,9 +5,10 @@ h1 {
 body {
     background-image: url(https://wallpaperaccess.com/full/7107111.jpg) ;
     background-size: 1600px;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     font-family: 'Merriweather', serif;
     text-align: center;
+    backgroun
 }
 
 

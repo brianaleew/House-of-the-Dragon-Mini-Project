@@ -6,7 +6,7 @@ body {
     background-image: url(https://wallpaperaccess.com/full/7107111.jpg) ;
     background-size: 1600px;
     background-repeat: no-repeat;
-    font-family: 'Bellefair', serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
 }
 
@@ -45,11 +45,13 @@ body {
 }
 
 
-#title-font {
+#title-font, span {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
 
 }
 
-/* title font needs adding  */
+/* make bio and status work...duplicate and change photos and bios */
 
 
 
